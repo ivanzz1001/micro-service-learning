@@ -14,7 +14,7 @@ APM通常认为是Application Performance Management 的简写，它主要有三
 
 以后大家接触任何一个APM系统的时候，都可以从这三个方面去分析它到底是什么样的一个系统: Metrics可以用于服务告警;Tracing 和 Logging 用于调试发现问题。监控、追踪和日志是可观测性（observability）的基石
 
-![apm](https://github.com/ivanzz1001/micro-service-learning/blob/master/online-article-collection/image/4165417baea04f209353008a1dd712e1.png?raw=true)
+![apm](https://github.com/ivanzz1001/micro-service-learning/blob/master/online-article-collection/image/4165417baea04f209353008a1dd712e1.png)
 
 有些场景中，APM特指上面三个中的 Metrics，我们这里不去讨论这个概念。这节我们先对这3个方面进行介绍，同时介绍一下这3个领域里面一些常用的工具。
 
