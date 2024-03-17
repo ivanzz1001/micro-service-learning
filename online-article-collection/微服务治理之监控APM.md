@@ -16,7 +16,6 @@ APM通常认为是Application Performance Management 的简写，它主要有三
 
 ![apm](https://raw.githubusercontent.com/ivanzz1001/micro-service-learning/main/online-article-collection/image/4165417baea04f209353008a1dd712e1.png)
 
-![apm](https://github.com/ivanzz1001/micro-service-learning/tree/master/online-article-collection/image/4165417baea04f209353008a1dd712e1.png?raw=true)
 
 
 有些场景中，APM特指上面三个中的 Metrics，我们这里不去讨论这个概念。这节我们先对这3个方面进行介绍，同时介绍一下这3个领域里面一些常用的工具。
