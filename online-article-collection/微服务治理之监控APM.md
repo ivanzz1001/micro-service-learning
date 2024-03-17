@@ -14,7 +14,7 @@ APM通常认为是Application Performance Management 的简写，它主要有三
 
 以后大家接触任何一个APM系统的时候，都可以从这三个方面去分析它到底是什么样的一个系统: Metrics可以用于服务告警;Tracing 和 Logging 用于调试发现问题。监控、追踪和日志是可观测性（observability）的基石
 
-![apm](https://github.com/ivanzz1001/micro-service-learning/blob/master/online-article-collection/image/4165417baea04f209353008a1dd712e1.png)
+![apm](https://raw.githubusercontent.com/ivanzz1001/micro-service-learning/master/online-article-collection/image/4165417baea04f209353008a1dd712e1.png)
 
 有些场景中，APM特指上面三个中的 Metrics，我们这里不去讨论这个概念。这节我们先对这3个方面进行介绍，同时介绍一下这3个领域里面一些常用的工具。
 
@@ -26,7 +26,7 @@ APM通常认为是Application Performance Management 的简写，它主要有三
 - 告警管理器：根据指标查询向各种提供者发送警报
 - Grafana：把prometheus收集到的数据，变成可视化豪华仪表板
 
-![apm](https://github.com/ivanzz1001/micro-service-learning/blob/master/online-article-collection/image/6bd805f35274488ebcf665c235443db7.png)
+![apm](https://raw.githubusercontent.com/ivanzz1001/micro-service-learning/master/online-article-collection/image/6bd805f35274488ebcf665c235443db7.png)
 
 还有一个方案是使用美团开源监控系统CAT，提供了比较全面的实时监控告警服务:
 
@@ -43,7 +43,7 @@ Logs 的典型实现是ELK(ElasticSearch、Logstash、Kibana)，三个项目都�
 
 Kibana 是一个非常好用的工具，用于对 ES 的数据进行可视化，简单来说，它就是 ES 的客户端。
 
-![apm](https://github.com/ivanzz1001/micro-service-learning/blob/master/online-article-collection/image/2d483fb0b1694b7fa03108832734f82c.png)
+![apm](https://raw.githubusercontent.com/ivanzz1001/micro-service-learning/master/online-article-collection/image/2d483fb0b1694b7fa03108832734f82c.png)
 
 我们回过头来分析 Logs 系统，Logs 系统的数据来自于应用中打印的日志，它的特点是数据量可能很大，取决于应用开发者怎么打日志，Logs 系统需要存储全量数据，通常都要支持至少 1 周的储存。
 
@@ -77,7 +77,7 @@ OpenTracing是一个轻量级的标准化层，位于“应用程序/类库”�
 SkyWalking 在国内应该比较多公司使用，是一个比较优秀的由国人发起的开源项目，已进入 Apache 基金会。
 另一个比较好的开源 Traces 系统是由韩国人开源的 Pinpoint，它的打点数据非常丰富。国内用skywalking比较好，有成熟的社区，可以加群和创始人沟通。
 
-![apm](https://github.com/ivanzz1001/micro-service-learning/blob/master/online-article-collection/image/f47abca829de41c08d6e6f5e5bcaf6e6.png)
+![apm](https://raw.githubusercontent.com/ivanzz1001/micro-service-learning/master/online-article-collection/image/f47abca829de41c08d6e6f5e5bcaf6e6.png)
 
 Skywalking目前想要做成跟踪、监控、日志一体的解决方案（Tracing, Metrics and Logging all-in-one solution）。
 
