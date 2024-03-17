@@ -85,5 +85,19 @@ Parse PROTO_FILES and generate output based on the options given:
   --rust_out=OUT_DIR          Generate Rust sources.
 ```
 
-幸运的是go代码的生成可以通过protoc的一个插件```protoc-gen-go```。下面介绍一下protoc-gen-go插件的安装及使用。
+幸运的是go代码的生成可以通过protoc的一个插件```protoc-gen-go```。
+
+有两种方式来进行安装：
+>ps: 参考[protoc-gen-go 安装](https://blog.csdn.net/weixin_36908494/article/details/126384643)
+
+- 使用go get命令
+
+- 通过源码方式安装(https://github.com/golang/protobuf/tree/master)
+
+这里简单介绍第一种安装方式。
+
+1) 安装golang环境
+
+
+
 
